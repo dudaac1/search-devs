@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <title>Search Devs</title>
+</head>
+<body>
+
+    <header class="header">· Search Devs ·</header>
+    <div class="container">
+        <input type="text" id="searchInput" placeholder="Procure por nome">
+        <div>
+            <div class="checkboxes">
+                <input type="checkbox" id="javaCheckbox">
+                <label for="javaCheckbox">Java</label>
+                <input type="checkbox" id="jsCheckbox">
+                <label for="jsCheckbox">JavaScript</label>
+                <input type="checkbox" id="pythonCheckbox">
+                <label for="pythonCheckbox">Python</label>
+            </div><div class="radios">
+                <input type="radio" name="andOr" id="andRadio">
+                <label for="andRadio">E</label>
+                <input type="radio" name="andOr" id="orRadio">
+                <label for="orRadio">OU</label>
+            </div>
+        </div>
+        <h2 class="totalDevs"><span id="totalDevsSpan"></span> dev/s encontrado/s.</h2>
+        <div id="devs" class="devs"></div>
+    </div>
+    
+<script src="main.js"></script>
+</body>
+</html>
