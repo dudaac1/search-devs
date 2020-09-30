@@ -13,7 +13,7 @@ An application created with HTML, CSS and JavaScript during IGTI's Bootcamp to e
 - Perform HTTP requests with the fetch command and use promises or async/await.
 
 ## 🛠 Executing the project
-> ## code
+> code
 
 ---
 *Developed by Duda Carvalho, September 2020.*
